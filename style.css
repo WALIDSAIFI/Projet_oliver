@@ -12,44 +12,57 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: black;
+   
+    
 }
 
 .navigation {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    margin-right: 200px;
+    
+
 }
 
 .navigation li {
     display: inline;
     margin-right: 20px;
+   
 }
 
 .navigation a {
     text-decoration: none;
-    color: white;
+    color:rgba(250, 240, 102, 0.993);
+  
+}
+.logo {
+    width: 60px;
+    height: 50px ;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
 }
 
 .text {
     width: 700px;
     height: 300px;
-    margin: 150px auto;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+    color: rgba(250, 240, 102, 0.993);
+    font-size: 27px;
     text-align: center;
-    padding: 9px;
+    padding: 4px;
     background-color: rgba(17, 16, 16, 0.46);
     border-radius: 30px;
+    margin-right: 20px; 
 }
 
 img {
-    width: 770px;
-    height: 750px;
-    display: block;
-    margin: 0 auto;
-}
-
-.logo {
-    width: 100px;
-    cursor: pointer;
+    width: 450px;
+    height: 500px;
+    border-radius: 15px; /* Ajoutez un peu de bord arrondi à l'image si vous le souhaitez */
 }
